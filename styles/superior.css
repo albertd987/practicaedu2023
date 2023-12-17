@@ -1,0 +1,142 @@
+
+.actualitzacio{
+  color:grey;
+}
+body{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0px;
+  background: white;
+  
+
+}
+
+.capçalera{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  max-width: 900px;
+  margin:auto;
+  z-index: 100; 
+  
+}
+.container {
+justify-content: flex-start;
+display: flex;
+margin: 0 auto;
+max-width: 900px;
+padding: 20px 0 ;
+height: 30px;
+padding-top: 100px; 
+background: linear-gradient(to bottom, #161D25, rgb(51, 51, 51));
+}
+nav {
+display: flex;
+justify-content: left;
+}
+nav a{
+
+flex: 1;;
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1px;
+transition: all 0.3s ease;
+height:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+white-space: nowrap;
+}
+nav a:hover{
+background-color: #5f6062;
+color: white;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-contingut { 
+visibility: hidden;
+position: absolute;
+min-width: 160px;
+z-index: 1;
+top: 100%;
+}
+
+.dropdown:hover .dropdown-contingut { /*arreglar això *arreglat*/ 
+margin-top: 20px; 
+visibility:visible;
+
+}
+.xataka{
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to bottom, #212A34, #161D25);
+ 
+}
+.menu-container {
+position: absolute;
+top: 0;
+left: 209px;
+right:0;
+max-width: 900px;
+margin:100px;
+z-index: 100; 
+background-color: #5f6062;
+
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-contingut {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-contingut {
+  display: block;
+}
+
+.container {
+border-bottom: 4px solid orange;
+}

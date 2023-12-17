@@ -1,0 +1,49 @@
+.maincolumns {
+    display: flex;
+}
+
+.part1 {
+    flex: 2;
+    margin: 0 15px;
+}
+.taula{
+
+    border-collapse: collapse;
+    
+}
+
+.taula td{
+    background-color: rgb(88, 184, 179);
+    color: black;  
+    border: 1px solid lightblue;
+    height: 5px;
+    width: 4px
+   
+    
+} 
+.blaufort td{
+    background-color: blue;   
+} 
+
+.blausuau td{
+    background-color: rgb(88, 184, 179);
+} 
+.blaugris td{
+  background-color: gray;
+
+}
+.siguenos{
+  color: grey;
+  margin-left: 0;
+}
+
+.xarxes ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.xarxes ul li {
+    margin-right: 10px;
+}

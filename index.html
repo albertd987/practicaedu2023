@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	
+    <title>Portal noticies</title>
+	<link rel="logo" href="/Users/domen/Desktop/DAW/LLENGUATGE DE MARQUES/web/imatges/logo"/>
+
+    <!-- Descripció web: una linia maxim 2 o 3 -->
+
+    <meta name="description" content="Roughly 155 characters" />
+
+    <meta charset="utf-8" />
+
+    <!-- Millora compatibilitat ie explorer i edge -->
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Multidispositiu: visualitzar en tablets, mòbils, smart-tv, consoles... -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Llista paraules clau de la nostra web: molt important Google/cercadors cerquen web en funcio aquestes paraules -->
+
+    <meta name="keywords" content="html,cheatsheet" />
+
+    <!-- Icona petita a la pestanya -->
+
+    <link rel="icon" href="media/favicon.ico" />
+
+    <!-- Pagina alternativa en cas no es pugui carregar l'original -->
+    <link rel="alternate" hreflang="es" href="https://htmlcheatsheet.com/spanish/" />
+
+    <!-- Carreguem diferent estils -->
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+
+
+    <!-- Scripts: si els necessitem carreguem javascript i jquery -->
+    <script src="/script.js"></script>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+<body>
+<header class="capçalera">
+    <img src="media/xataka logo.svg" class="xataka">
+</header>
+
+<!--menú navegació-->
+<div class="container"> 
+    <nav> <!--BARRA DE MENÚS SOTA EL LOGO-->
+        <ul>
+            <li class="dropdown">
+                <a href="#">Educació</a>
+                <ul class="dropdown-contingut">
+                    <li><a href="https://agora.xtec.cat/iesmila/">Educació General</a></li>
+                    <li><a href="https://agora.xtec.cat/iesmila/oferta-educativa/cicles-formatius-de-grau-superior/">Cicles Formatius</a></li>
+                </ul>
+            </li>
+            <li><a href="https://agora.xtec.cat/iesmila/oferta-educativa/batxillerat/">Tecnologia</a></li>
+            <li><a href="https://agora.xtec.cat/iesmila/oferta-educativa/pfi-ptt-igualada/">Que fem</a></li>
+            <li><a href="https://agora.xtec.cat/iesmila/oferta-educativa/que-son-els-cicles-formatius-dual/">Qui som</a></li>
+            <li><a href="https://agora.xtec.cat/iesmila/oferta-educativa/pfi-ptt-igualada/">Contacte</a></li>
+            <li><a href="https://agora.xtec.cat/iesmila/wp-login.php?redirect_to=https%3A%2F%2Fagora.xtec.cat%2Fiesmila%2Foferta-educativa%2Fpfi-ptt-igualada%2F">Admin</a></li>
+        </ul>
+    </nav>
+    
+</div>
+<main class="maincolumns"> <!--INICI DEL MAIN-->
+    <section class="part1">
+      <a class="article first-article" href="#">
+
+        <div class="article-body">
+            <h2 class="article-title">
+                Atajos de teclado para pestañas y ventanas
+            </h2>
+            <span class="actualitzacio">23 Agosto 2016 - Actualizado 6 Octubre 2017, 21:13</span>
+            <figure class="google">
+                <img src="media/google.PNG" height="200px" alt="google">
+            </figure>
+            <p class="article-content">
+                A la hora de operar con nuestro navegador es importante tener <strong>el control
+                de las pestañas y ventanas</strong>. Esto no solo implica utilizar los clasicos
+                atajos para abrir ventanas y pestañas normales o en modo incógnito, sino también
+                el conseguir facilitar la navegación entre ellas sin necesidad de tener que tocar
+                el raton y perder tiempo mientras escribimos.
+            </p>
+            <br></p> <br></p> <!--DOS SALTS DE LÍNIA QUE NO SABIA COM FER D'ALTRA MANERA-->
+
+            <!--TAULA-->
+            <table class="taula">
+                <tr class="blaufort">
+                    <td>Navegador</td>
+                    <td>Motor</td>
+                    <td>CSS1</td>
+                    <td>CSS2</td>
+                    <td>CSS3</td>
+                </tr>
+                <tr class="blausuau">
+                    <td>internet<br>explorer</td>
+                    <td>Trident</td>
+                    <td>Completo desde <br> la version 6.0</td>
+                    <td>Completo desde <br> la version 8.0</td>
+                    <td>Prácticamente completo</td>
+                </tr>
+                <tr class="blaugris">
+                <td>Firefox</td>
+                <td>Gecko</td>
+                <td>Completo</td>
+                <td>Casi completo</td>
+                <td>Selectores, pseudo-clases y<br>algunas propiedades</td>
+                </tr>
+                <tr class="blausuau">
+                    <td>Safari</td>
+                    <td>Webkit</td>
+                    <td>Completo</td>
+                    <td>Casi completo</td>
+                    <td>Todos los selectores, pseudo-clases y muchas propiedades</td>
+                </tr>
+                <tr>
+                    <td>Opera</td>
+                    <td>Presto</td>
+                    <td>Completo</td>
+                    <td>Casi completo</td>
+                    <td>Todos los selectores, pseudo-clases y muchas propiedades</td>
+                </tr>
+                <tr class="blaugris">
+                    <td>Google Chrome</td>
+                    <td>Webkit</td>
+                    <td>Completo</td>
+                    <td>Casi completo</td>
+                    <td>Todos los selectores, pseudo-clases y muchas propiedades</td>
+                </tr>
+                
+            </table>
+     </a>
+          
+            <br> <br>
+            <span class="siguenos">Síguenos</span>
+            
+            <footer class="xarxes"> <!--LLISTA DE LES XARXES-->
+                <ul>
+                    <li>
+                        <a href="https://whatsapp.com/channel/0029VaAOhno4tRrjQkLKjI2u">
+                            <img src="media/whats.png" height="20px" alt="whatsapp">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/xataka">
+                            <img src="media/icons8-twitter.gif" height="20px" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Xataka">
+                            <img src="media/icons8-facebook-nuevo-48.png" height="20px" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/xatakatv?sub_confirmation=1">
+                            <img src="media/icons8-youtube-play-96.png" height="20px" alt="youtube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/xataka">
+                            <img src="media/icons8-instagram.gif" height="20px" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://telegram.me/xataka">
+                            <img src="media/icons8-aplicación-telegrama.gif" height="20px" alt="telegram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://snapchat.com">
+                            <img src="media/icons8-snapchat.gif" height="20px" alt="snapchat">
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+            
+      
+    </section>
+  <!--INICI SEGONA COLUMNA-->
+    <section class="part2">
+        <span class="recomanats">&nbsp;&nbsp;TE RECOMENDAMOS</span>
+        <div class="caixa1">
+            <div class="imatge">
+                <img src="media/article2.PNG" alt="teclat" height="100px">
+            </div>
+            <div class="text">
+                <p>Por qué un editor de <br>texto de hace 40 años<br>
+                    machaca al "todopoderoso" atom</p>
+            </div>
+        </div>
+        <div class="caixa2">
+
+            <img src="media/article3.PNG" alt="whats" height="100px">
+                <p>WhatsApp tiene 1.200 millones de usuarios pero 
+                no gana dinero. Eso está a punto de cambiar</p>
+
+
+        </div>
+        <div class="caixa3">
+
+            <img src="media/article4.PNG" alt="mac" height="100px">
+                <p>Cómo cambiar la extensión de un archivo en Mac</p>
+        </div>
+        
+        <div class="formulari"> <!--FORMULARI-->
+            <div>
+                <h2 class="titolform">Escríbenos desde aquí:</h2>
+                    <span class="span">Por favor, rellena todos los campos</span>
+                    <form>
+                        <p class="nom">
+                            Tu nombre:<br> <input type="text" name="nom"  maxlength="20" pattern="[A-Z-a-z]+" required> 
+                        </p>
+                        
+                        <p class="correu">
+                            Tu correo electrónico:<br> <input type="text"  required>
+                        </p>
+                        
+                        <p class="missatge">Mensaje:</p>
+                        <textarea name="mensaje" placeholder="Lo que quieras comentarnos" ></textarea> <!--ROWS I COLUMNS BORRAT-->
+                        <p>
+                            <input type="submit" value="Enviar" class="boto_enviar">
+                        </p>
+                    </form>
+            </div>
+        </div>
+
+    </section>
+  </main> 
+  <!--FI DEL MAIN I PRINCIPI DEL ASIDE-->
+  <aside>
+    <div class="finalweb">
+        <a class="pujar" href="">
+            Subir
+        </a>
+        <img src="media/weblogs.png" class="weblog"alt="weblogs">
+        <div class="linea"></div>
+        <div class="llista">
+            <ul>
+                <a href="">TECNOLOGÍA</a>
+                <a href="">ESTILO DE VIDA</a>
+                <a href="">MOTOR</a>
+                <a href="">ECONOMÍA</a>
+                <a href="">OCIO</a>
+            </ul>
+
+
+        </div>
+        
+    </div>
+</aside>
+</body>
